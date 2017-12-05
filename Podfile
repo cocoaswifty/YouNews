@@ -6,9 +6,9 @@ target 'YouNews' do
   use_frameworks!
 
   # Pods for YouNews
-#  pod 'Kanna', '~> 2.1.0'r
-#  pod 'YoutubeSourceParserKit', '~> 0.2.4'
-
+  pod 'YouTubePlayer', '~> 0.4.0'
+  pod 'DJKFlipper', '~> 0.1.9'
+  
   target 'YouNewsTests' do
     inherit! :search_paths
     # Pods for testing

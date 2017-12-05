@@ -7,50 +7,93 @@
 //
 
 import UIKit
+import DJKFlipper
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-//        if let urlStr = "http://127.0.0.1:5000/".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed), let url = URL(string: urlStr) {
-//            let task = URLSession.shared.dataTask(with: url) { (data, response , error) in
-////                print(String(data: data!, encoding: .utf8)!)
-//                let decoder = JSONDecoder()
-//                if let data = data, let songResults = try? decoder.decode(ListResults.self, from: data) {
-//                    for song in songResults.results {
-//                        print(song)
-//                    }
-//                } else {
-//                    print("error")
-//                }
-//            }
-//            task.resume()
-//        }
-        
-        
-        if let path = Bundle.main.path(forResource: "list", ofType: "json") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-                print(jsonResult)
-            } catch {
-                // handle error
-            }
+class ViewController: UIViewController, DJKFlipperDataSource {
+    @IBOutlet weak var flipView: DJKFlipperView!
+    
+    var flipperViewArray: [UIViewController] = []
+    {
+        didSet
+        {
+            flipView.reload()
         }
     }
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        flipView.dataSource = self
+        
+//        getList().forEach {
+//            let page = PageViewController(nibName: "PageViewController", bundle: nil)
+//            page.view.frame = self.view.bounds
+//            page.videoPlayer.loadVideoID($0.id)
+//            page.view.layoutSubviews()
+//
+//            flipperViewArray.append(page)
+//        }
+//
+        let page1 = PageViewController(nibName: "PageViewController", bundle: nil)
+        page1.view.frame = self.view.bounds
+        page1.videoPlayer.loadVideoID("o7IKI9hqNnM")
+        page1.view.layoutSubviews()
 
+        let page2 = PageViewController(nibName: "PageViewController", bundle: nil)
+        page2.view.frame = self.view.bounds
+        page2.videoPlayer.loadVideoID("ryHuDh9PYmw")
+        page2.view.layoutSubviews()
 
+        flipperViewArray += [page1,page2]
+        
+        
+        
+        
+        
+    }
+
+    func getList() -> [List] {
+        var lists = [List]()
+        
+        if let urlStr = "https://181v29xxme.execute-api.us-west-2.amazonaws.com/prod/api/v1/list/0".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed), let url = URL(string: urlStr) {
+            let task = URLSession.shared.dataTask(with: url) { (data, response , error) in
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                
+                if let data = data, let listResults = try? decoder.decode([List].self, from: data) {
+                    
+                    lists = listResults
+//                    for row in listResults {
+//                        print(row)
+//                    }
+                } else {
+                    print("error")
+                }
+            }
+            
+            
+            task.resume()
+        }
+        
+        return lists
+    }
+    
+    func numberOfPages(_ flipper: DJKFlipperView) -> NSInteger {
+        return flipperViewArray.count
+    }
+
+    func viewForPage(_ page: NSInteger, flipper: DJKFlipperView) -> UIView {
+        return flipperViewArray[page].view
+    }
+    
 }
-struct ListResults: Codable {
-    struct List: Codable {
+
+struct List: Codable {
         var id: String
         var title: String
         var owner: String
         var time: String
-    }
-    var results: [List]
 }
-
 
 

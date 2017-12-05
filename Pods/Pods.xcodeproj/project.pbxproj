@@ -7,22 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D038F10E6FADCD826376F9CA67879BD /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 348ED2FDCC5C001DFDC45994AD8DAFF7 /* YouTubePlayer-dummy.m */; };
+		232312FCAEA4F5CE1EC8D5DF1720EE62 /* DJKArrayHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479FAFE9FA493BB4890000F56F13FDD /* DJKArrayHelper.swift */; };
 		370FFF99C18643B94ED815C0EC16D977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		51C4E64528573CF93AA57F1EC5C0642F /* Pods-YouNewsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2B1294E322757C974D6DF28772E3F6 /* Pods-YouNewsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		618E1657BE60A029DA1F62A35B05816D /* Pods-YouNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99821C2E042D89C0E673E62F867E4077 /* Pods-YouNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5982E8E5DC723D6CCFC1E935AFEA5B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7591F36F9A733A90FCD1AD0BE549F9E5 /* Pods-YouNewsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B471FBA5A669AAE1CA775AC5BF79B83 /* Pods-YouNewsUITests-dummy.m */; };
+		8A7156F80D0F216863DDEB76F5109ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8BE9FB4AD838AFE894577ACD0C63D79F /* DJKFlipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7B006D21637D8F0DE5EB14EF3DE261 /* DJKFlipper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		945E221244C1BC14F360E187B48F4BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		98B8A61BB30F6FB9B59E1EABE85D5843 /* DJKAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C28540730D72BA6D4B2FFA2FFEE666 /* DJKAnimationLayer.swift */; };
+		9DF2E80BC2D8703849237B7F34B44000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A649E154466ABAD7D38D9D1928DB1355 /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD962620247472D914B44F157E564A1 /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7B14EC77A6BBE6B5AE14F5135AFD2D2 /* DJKScreenShotExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D007B0E32CEAA1017D92C524ABAB8 /* DJKScreenShotExtension.swift */; };
+		A89D58C2F4C321B0681C1741AA63D582 /* DJKFlipper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F750116FB4F3B0E7EF9B77C64EB72D8 /* DJKFlipper-dummy.m */; };
+		AB4958490136F5E2502C1619C0B079E5 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0D898BAA9065BD9C639DBA44CD25A /* YouTubePlayer.swift */; };
+		B186675CDB799B2A9C4A7B80D7A2B426 /* Pods-YouNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 863D789F936B742D3B15AD28B97761D3 /* Pods-YouNews-dummy.m */; };
+		B9F476A666AE3B006ECD73337FDA8FD7 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 60A53F70FAEB48CB11998926A6E4CD44 /* YTPlayer.html */; };
 		BD202486F82F52A8A1D35842805A525E /* Pods-YouNewsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F196598DB62DFBD3568B8A21F648C9D9 /* Pods-YouNewsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFA5600607390B324B0BA40BADB3DD84 /* Pods-YouNewsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E845CEF519055A2DC77FD95CAD805ECC /* Pods-YouNewsTests-dummy.m */; };
-		FAF98DC4C5BC02D57B5215F9E8434E20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FF2030B3FD1BFF6E3D3230605A5D2819 /* Pods-YouNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 863D789F936B742D3B15AD28B97761D3 /* Pods-YouNews-dummy.m */; };
+		DC92C163B31CEF8BC03D4FED09DE0560 /* DJKStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECCE1A908468517BD04FE2F28630D58 /* DJKStaticView.swift */; };
+		E07729293C2782978836716B907183E4 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 627DB43C210DDC27434CFD83A7A6246B /* Info.plist */; };
+		E5CD3CDC86FDAB11B83873C4D8C62525 /* Pods-YouNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99821C2E042D89C0E673E62F867E4077 /* Pods-YouNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2125EE0067845AC71D98AB92DD0E962 /* DJKFlipperConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F28EA717FEDC6BFBC724AF7C6522A /* DJKFlipperConstants.swift */; };
+		F98ABA7FAF6F13D3FB2882E77259AE42 /* DJKFlipperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D3FD088729FA65AE346DA826825AF /* DJKFlipperView.swift */; };
+		FEB08532D2DB1189C661F65A30B56B22 /* DJKFlipper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2137BFEC2FFD3B7073CCFD2D6EC2651 /* DJKFlipper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C41E7DB191DD56EDA3EC59BC548E96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2690437812A2A63795B9704941795F36;
+			remoteInfo = YouTubePlayer;
+		};
+		8D61CFE038878BFDFC02CF20AE80D720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E3FD0236CDA34B7D440A348460133F;
+			remoteInfo = DJKFlipper;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0025B9C4243A0EB62E867C9295D14CE0 /* Pods-YouNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YouNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		006D007B0E32CEAA1017D92C524ABAB8 /* DJKScreenShotExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DJKScreenShotExtension.swift; path = DJKFlipper/DJKScreenShotExtension.swift; sourceTree = "<group>"; };
 		02AE609141E22265A411EDD5595E4256 /* Pods-YouNewsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YouNewsTests-resources.sh"; sourceTree = "<group>"; };
 		08662013100C781A0CC556E6EA44C6D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AE58F3182317F95545F02B981BD8C04 /* Pods_YouNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YouNews.framework; path = "Pods-YouNews.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B127FCA8ECEA051FDC6D5437684E874 /* Pods-YouNewsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YouNewsUITests-frameworks.sh"; sourceTree = "<group>"; };
 		0EFFEAC70B02850E7BB8A88A03919B3B /* Pods-YouNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YouNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		13600B580AAE4E218D1ADFD248B39DE9 /* Pods-YouNewsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YouNewsTests-frameworks.sh"; sourceTree = "<group>"; };
@@ -30,38 +63,86 @@
 		156655CE3F82D3EF2D264CC48739F6BC /* Pods-YouNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YouNews.debug.xcconfig"; sourceTree = "<group>"; };
 		19B27D7AE15F02C9E71BD0B81B610DC6 /* Pods-YouNewsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YouNewsUITests-resources.sh"; sourceTree = "<group>"; };
 		1D0BB5F6537917C786117220940D091B /* Pods-YouNewsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YouNewsTests.modulemap"; sourceTree = "<group>"; };
+		1DD962620247472D914B44F157E564A1 /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
 		21CA825223254DF1B4591BBD17DD4165 /* Pods-YouNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YouNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2519CD2A99F26E61E2E828D89A46BB2D /* Pods-YouNewsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YouNewsUITests.modulemap"; sourceTree = "<group>"; };
-		26D11CEE104EADB7DE3B3D9C5CA2F774 /* Pods_YouNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YouNewsUITests.framework; path = "Pods-YouNewsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B471FBA5A669AAE1CA775AC5BF79B83 /* Pods-YouNewsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YouNewsUITests-dummy.m"; sourceTree = "<group>"; };
-		37C6CD22D4D97EBF70052114E992011F /* Pods_YouNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YouNewsTests.framework; path = "Pods-YouNewsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348ED2FDCC5C001DFDC45994AD8DAFF7 /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
+		385AF68BEB797B0B5508AC0F20A10274 /* Pods_YouNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YouNews.framework; path = "Pods-YouNews.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7B006D21637D8F0DE5EB14EF3DE261 /* DJKFlipper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJKFlipper.h; path = DJKFlipper/DJKFlipper.h; sourceTree = "<group>"; };
+		3D7AB774FEB099B596F0A4D54C869005 /* DJKFlipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DJKFlipper.framework; path = DJKFlipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2F28EA717FEDC6BFBC724AF7C6522A /* DJKFlipperConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DJKFlipperConstants.swift; path = DJKFlipper/DJKFlipperConstants.swift; sourceTree = "<group>"; };
+		42BF47991041F374C5E5D84BD7F14490 /* DJKFlipper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJKFlipper.xcconfig; sourceTree = "<group>"; };
+		5960CAB8ACF2143237360F274CA81A53 /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YouTubePlayer.framework; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D52A3067A6B92C61F2EB922B1B2C233 /* Pods-YouNewsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YouNewsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FE0D898BAA9065BD9C639DBA44CD25A /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
+		60A53F70FAEB48CB11998926A6E4CD44 /* YTPlayer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YTPlayer.html; path = YouTubePlayer/YouTubePlayer/YTPlayer.html; sourceTree = "<group>"; };
+		627DB43C210DDC27434CFD83A7A6246B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = DJKFlipper/Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		761DDFC9A633FF87A2EB432E21C40660 /* Pods-YouNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YouNews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E0967982302D1CA2CF86BF5563538F6 /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
 		856D704B7CC7C6F5EBBA5414F1520564 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		863D789F936B742D3B15AD28B97761D3 /* Pods-YouNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YouNews-dummy.m"; sourceTree = "<group>"; };
+		8794C6DC038F036CD5DA09FA2ABC367C /* Pods_YouNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YouNewsTests.framework; path = "Pods-YouNewsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E2DE76F6410486C5D05BDA126CC41F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A902FA4D87586CC3A0D43BAFCAF2453 /* YouTubePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.xcconfig; sourceTree = "<group>"; };
 		90E4BDD75F82246EBB8C8767C6236815 /* Pods-YouNewsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YouNewsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91A08F7CC7FE5A78825741E2FF45ECF8 /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99821C2E042D89C0E673E62F867E4077 /* Pods-YouNews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YouNews-umbrella.h"; sourceTree = "<group>"; };
 		9E2B1294E322757C974D6DF28772E3F6 /* Pods-YouNewsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YouNewsUITests-umbrella.h"; sourceTree = "<group>"; };
+		9ECCE1A908468517BD04FE2F28630D58 /* DJKStaticView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DJKStaticView.swift; path = DJKFlipper/DJKStaticView.swift; sourceTree = "<group>"; };
+		9F750116FB4F3B0E7EF9B77C64EB72D8 /* DJKFlipper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJKFlipper-dummy.m"; sourceTree = "<group>"; };
+		A2137BFEC2FFD3B7073CCFD2D6EC2651 /* DJKFlipper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJKFlipper-umbrella.h"; sourceTree = "<group>"; };
 		B62830BAA1540934E6D91A47D3EAA4C1 /* Pods-YouNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YouNews-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD6D3FD088729FA65AE346DA826825AF /* DJKFlipperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DJKFlipperView.swift; path = DJKFlipper/DJKFlipperView.swift; sourceTree = "<group>"; };
+		C216666706FC26D28E49F42786CB1323 /* DJKFlipper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJKFlipper-prefix.pch"; sourceTree = "<group>"; };
+		CB92F8FA62D5785129E078E764E50D73 /* DJKFlipper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DJKFlipper.modulemap; sourceTree = "<group>"; };
 		CCADD323D775D62E0E80E2E4B3392F59 /* Pods-YouNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YouNews.modulemap"; sourceTree = "<group>"; };
+		CEEBC70EBDDD8F786B83845A67B2AC24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D09E8D9D79AE867282BA1FEB206358F3 /* Pods-YouNewsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YouNewsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D1DA3E6CBC603CFF455143E2900C3105 /* Pods-YouNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YouNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4495BB2F797F3FEF4222087718D13AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99E58144815AC6273E2E496493F3601 /* Pods-YouNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YouNews.release.xcconfig"; sourceTree = "<group>"; };
 		E11C9E55A77D30800C25EE6E14A2C19D /* Pods-YouNewsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YouNewsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2C28540730D72BA6D4B2FFA2FFEE666 /* DJKAnimationLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DJKAnimationLayer.swift; path = DJKFlipper/DJKAnimationLayer.swift; sourceTree = "<group>"; };
 		E845CEF519055A2DC77FD95CAD805ECC /* Pods-YouNewsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YouNewsTests-dummy.m"; sourceTree = "<group>"; };
 		F196598DB62DFBD3568B8A21F648C9D9 /* Pods-YouNewsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YouNewsTests-umbrella.h"; sourceTree = "<group>"; };
+		F479FAFE9FA493BB4890000F56F13FDD /* DJKArrayHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DJKArrayHelper.swift; path = DJKFlipper/DJKArrayHelper.swift; sourceTree = "<group>"; };
+		F5F5ABB1C6E434B1ADF0D2497704F9DF /* Pods_YouNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YouNewsUITests.framework; path = "Pods-YouNewsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC205E9766CA30189FD2E765CBB50F77 /* Pods-YouNews-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YouNews-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		450FB117F99545032AFE0134B5177388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7156F80D0F216863DDEB76F5109ECB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2DCF00C0F3BB6DBE3CAAD2BD29D553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF2E80BC2D8703849237B7F34B44000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F8885767CE7FA32C20BFA079A5DDDF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				945E221244C1BC14F360E187B48F4BE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650EFAA4F6BAF3E4D4287159AC0BFE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5982E8E5DC723D6CCFC1E935AFEA5B42 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,23 +154,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F982CD9CA26DCF2EA7186F08BC27620F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAF98DC4C5BC02D57B5215F9E8434E20 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AD109223EC54A9EA6A807088D7D0C76 /* Products */ = {
+		02BA313E342683074C028909C18D8CF9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0AE58F3182317F95545F02B981BD8C04 /* Pods_YouNews.framework */,
-				37C6CD22D4D97EBF70052114E992011F /* Pods_YouNewsTests.framework */,
-				26D11CEE104EADB7DE3B3D9C5CA2F774 /* Pods_YouNewsUITests.framework */,
+				60A53F70FAEB48CB11998926A6E4CD44 /* YTPlayer.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		16C7C4D96F3AE47F31AC2D4B1E179ED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D7AB774FEB099B596F0A4D54C869005 /* DJKFlipper.framework */,
+				385AF68BEB797B0B5508AC0F20A10274 /* Pods_YouNews.framework */,
+				8794C6DC038F036CD5DA09FA2ABC367C /* Pods_YouNewsTests.framework */,
+				F5F5ABB1C6E434B1ADF0D2497704F9DF /* Pods_YouNewsUITests.framework */,
+				5960CAB8ACF2143237360F274CA81A53 /* YouTubePlayer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +195,26 @@
 			path = "Target Support Files/Pods-YouNews";
 			sourceTree = "<group>";
 		};
+		1CD4F7208F9A03886E79EE69B1BC68C2 /* YouTubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0D898BAA9065BD9C639DBA44CD25A /* YouTubePlayer.swift */,
+				02BA313E342683074C028909C18D8CF9 /* Resources */,
+				796734D70B003A55C24DC88B485DA3F6 /* Support Files */,
+			);
+			name = YouTubePlayer;
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+		6607953F568D65A9B41FBEA76A9FD1A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBD0D2D9633CC9DFCF58889AD7BD31FF /* DJKFlipper */,
+				1CD4F7208F9A03886E79EE69B1BC68C2 /* YouTubePlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		66BA5704BF924BCF5CA064260521B4A5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,12 +225,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		796734D70B003A55C24DC88B485DA3F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4495BB2F797F3FEF4222087718D13AB /* Info.plist */,
+				91A08F7CC7FE5A78825741E2FF45ECF8 /* YouTubePlayer.modulemap */,
+				8A902FA4D87586CC3A0D43BAFCAF2453 /* YouTubePlayer.xcconfig */,
+				348ED2FDCC5C001DFDC45994AD8DAFF7 /* YouTubePlayer-dummy.m */,
+				7E0967982302D1CA2CF86BF5563538F6 /* YouTubePlayer-prefix.pch */,
+				1DD962620247472D914B44F157E564A1 /* YouTubePlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YouTubePlayer";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0AD109223EC54A9EA6A807088D7D0C76 /* Products */,
+				6607953F568D65A9B41FBEA76A9FD1A0 /* Pods */,
+				16C7C4D96F3AE47F31AC2D4B1E179ED7 /* Products */,
 				66BA5704BF924BCF5CA064260521B4A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -158,12 +276,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C98F9F1DFF06B4E35E35917A8816F87C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB92F8FA62D5785129E078E764E50D73 /* DJKFlipper.modulemap */,
+				42BF47991041F374C5E5D84BD7F14490 /* DJKFlipper.xcconfig */,
+				9F750116FB4F3B0E7EF9B77C64EB72D8 /* DJKFlipper-dummy.m */,
+				C216666706FC26D28E49F42786CB1323 /* DJKFlipper-prefix.pch */,
+				A2137BFEC2FFD3B7073CCFD2D6EC2651 /* DJKFlipper-umbrella.h */,
+				CEEBC70EBDDD8F786B83845A67B2AC24 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DJKFlipper";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBD0D2D9633CC9DFCF58889AD7BD31FF /* DJKFlipper */ = {
+			isa = PBXGroup;
+			children = (
+				E2C28540730D72BA6D4B2FFA2FFEE666 /* DJKAnimationLayer.swift */,
+				F479FAFE9FA493BB4890000F56F13FDD /* DJKArrayHelper.swift */,
+				3C7B006D21637D8F0DE5EB14EF3DE261 /* DJKFlipper.h */,
+				3E2F28EA717FEDC6BFBC724AF7C6522A /* DJKFlipperConstants.swift */,
+				BD6D3FD088729FA65AE346DA826825AF /* DJKFlipperView.swift */,
+				006D007B0E32CEAA1017D92C524ABAB8 /* DJKScreenShotExtension.swift */,
+				9ECCE1A908468517BD04FE2F28630D58 /* DJKStaticView.swift */,
+				627DB43C210DDC27434CFD83A7A6246B /* Info.plist */,
+				C98F9F1DFF06B4E35E35917A8816F87C /* Support Files */,
+			);
+			name = DJKFlipper;
+			path = DJKFlipper;
 			sourceTree = "<group>";
 		};
 		F9E3449ACADDDFB23D9BFC4C1F2A5F0D /* Pods-YouNewsTests */ = {
@@ -187,11 +336,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		97B9B98C55843B828E86861E9D846AEA /* Headers */ = {
+		04BC7E6FA56947A1A15D01216FDA4731 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618E1657BE60A029DA1F62A35B05816D /* Pods-YouNews-umbrella.h in Headers */,
+				E5CD3CDC86FDAB11B83873C4D8C62525 /* Pods-YouNews-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		376F6B2228A64E5C92D5833C4BA0BE3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB08532D2DB1189C661F65A30B56B22 /* DJKFlipper-umbrella.h in Headers */,
+				8BE9FB4AD838AFE894577ACD0C63D79F /* DJKFlipper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E6876F836AD5BF0128CB5A8831C93F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A649E154466ABAD7D38D9D1928DB1355 /* YouTubePlayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +394,25 @@
 			);
 			name = "Pods-YouNewsUITests";
 			productName = "Pods-YouNewsUITests";
-			productReference = 26D11CEE104EADB7DE3B3D9C5CA2F774 /* Pods_YouNewsUITests.framework */;
+			productReference = F5F5ABB1C6E434B1ADF0D2497704F9DF /* Pods_YouNewsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2690437812A2A63795B9704941795F36 /* YouTubePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1BC3BC14D024A496C1067375F846F4 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */;
+			buildPhases = (
+				FCE0FC96E27D45E7A90F993AB27422E3 /* Sources */,
+				4C2DCF00C0F3BB6DBE3CAAD2BD29D553 /* Frameworks */,
+				B07B09DACE40AD7CA2030341B8817626 /* Resources */,
+				89E6876F836AD5BF0128CB5A8831C93F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubePlayer;
+			productName = YouTubePlayer;
+			productReference = 5960CAB8ACF2143237360F274CA81A53 /* YouTubePlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7DB677401B352CC03859B8E7A91C42D7 /* Pods-YouNewsTests */ = {
@@ -245,24 +429,43 @@
 			);
 			name = "Pods-YouNewsTests";
 			productName = "Pods-YouNewsTests";
-			productReference = 37C6CD22D4D97EBF70052114E992011F /* Pods_YouNewsTests.framework */;
+			productReference = 8794C6DC038F036CD5DA09FA2ABC367C /* Pods_YouNewsTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A5E69C206C35CCF1F78127FE7CAC37B0 /* Pods-YouNews */ = {
+		B5E3FD0236CDA34B7D440A348460133F /* DJKFlipper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF1D9806F8E0E1DF4A28E03FFD41E29B /* Build configuration list for PBXNativeTarget "Pods-YouNews" */;
+			buildConfigurationList = 4A84C77FA9B4AB90685EEDD751F5A3F1 /* Build configuration list for PBXNativeTarget "DJKFlipper" */;
 			buildPhases = (
-				F1506CCD494451E2CB37E58FFF109E33 /* Sources */,
-				F982CD9CA26DCF2EA7186F08BC27620F /* Frameworks */,
-				97B9B98C55843B828E86861E9D846AEA /* Headers */,
+				9610F19103333791C387C5870C20DA8C /* Sources */,
+				650EFAA4F6BAF3E4D4287159AC0BFE70 /* Frameworks */,
+				376F6B2228A64E5C92D5833C4BA0BE3C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = DJKFlipper;
+			productName = DJKFlipper;
+			productReference = 3D7AB774FEB099B596F0A4D54C869005 /* DJKFlipper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE011C6873F9C9FE1FDDDAB41827289D /* Pods-YouNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68901D5064E0DFE645C67F10051890AF /* Build configuration list for PBXNativeTarget "Pods-YouNews" */;
+			buildPhases = (
+				C03082E5A5C32CF676273A34F0052CA5 /* Sources */,
+				450FB117F99545032AFE0134B5177388 /* Frameworks */,
+				04BC7E6FA56947A1A15D01216FDA4731 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87FBA64730E2523718A6C1F9E7E17410 /* PBXTargetDependency */,
+				45A86C35919C57F39462F9ADCE11CB65 /* PBXTargetDependency */,
+			);
 			name = "Pods-YouNews";
 			productName = "Pods-YouNews";
-			productReference = 0AE58F3182317F95545F02B981BD8C04 /* Pods_YouNews.framework */;
+			productReference = 385AF68BEB797B0B5508AC0F20A10274 /* Pods_YouNews.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -282,16 +485,29 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0AD109223EC54A9EA6A807088D7D0C76 /* Products */;
+			productRefGroup = 16C7C4D96F3AE47F31AC2D4B1E179ED7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5E69C206C35CCF1F78127FE7CAC37B0 /* Pods-YouNews */,
+				B5E3FD0236CDA34B7D440A348460133F /* DJKFlipper */,
+				EE011C6873F9C9FE1FDDDAB41827289D /* Pods-YouNews */,
 				7DB677401B352CC03859B8E7A91C42D7 /* Pods-YouNewsTests */,
 				0090791672A2583B32E1FCA31439DC08 /* Pods-YouNewsUITests */,
+				2690437812A2A63795B9704941795F36 /* YouTubePlayer */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B07B09DACE40AD7CA2030341B8817626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F476A666AE3B006ECD73337FDA8FD7 /* YTPlayer.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		077B78B2AE096A2796BF60BBFD7B5B1F /* Sources */ = {
@@ -310,17 +526,119 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1506CCD494451E2CB37E58FFF109E33 /* Sources */ = {
+		9610F19103333791C387C5870C20DA8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF2030B3FD1BFF6E3D3230605A5D2819 /* Pods-YouNews-dummy.m in Sources */,
+				98B8A61BB30F6FB9B59E1EABE85D5843 /* DJKAnimationLayer.swift in Sources */,
+				232312FCAEA4F5CE1EC8D5DF1720EE62 /* DJKArrayHelper.swift in Sources */,
+				A89D58C2F4C321B0681C1741AA63D582 /* DJKFlipper-dummy.m in Sources */,
+				F2125EE0067845AC71D98AB92DD0E962 /* DJKFlipperConstants.swift in Sources */,
+				F98ABA7FAF6F13D3FB2882E77259AE42 /* DJKFlipperView.swift in Sources */,
+				A7B14EC77A6BBE6B5AE14F5135AFD2D2 /* DJKScreenShotExtension.swift in Sources */,
+				DC92C163B31CEF8BC03D4FED09DE0560 /* DJKStaticView.swift in Sources */,
+				E07729293C2782978836716B907183E4 /* Info.plist in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03082E5A5C32CF676273A34F0052CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B186675CDB799B2A9C4A7B80D7A2B426 /* Pods-YouNews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE0FC96E27D45E7A90F993AB27422E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D038F10E6FADCD826376F9CA67879BD /* YouTubePlayer-dummy.m in Sources */,
+				AB4958490136F5E2502C1619C0B079E5 /* YouTubePlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		45A86C35919C57F39462F9ADCE11CB65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YouTubePlayer;
+			target = 2690437812A2A63795B9704941795F36 /* YouTubePlayer */;
+			targetProxy = 7C41E7DB191DD56EDA3EC59BC548E96A /* PBXContainerItemProxy */;
+		};
+		87FBA64730E2523718A6C1F9E7E17410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DJKFlipper;
+			target = B5E3FD0236CDA34B7D440A348460133F /* DJKFlipper */;
+			targetProxy = 8D61CFE038878BFDFC02CF20AE80D720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1408F5B19B2A54DD563D9151A9E5D714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A902FA4D87586CC3A0D43BAFCAF2453 /* YouTubePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C5B1A5B208460D8466A9D197F9D4242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BF47991041F374C5E5D84BD7F14490 /* DJKFlipper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DJKFlipper/DJKFlipper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DJKFlipper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DJKFlipper/DJKFlipper.modulemap";
+				PRODUCT_NAME = DJKFlipper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -408,6 +726,74 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5E6F45037CFFDF81116E0FD13E1D0D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99E58144815AC6273E2E496493F3601 /* Pods-YouNews.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YouNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YouNews/Pods-YouNews.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YouNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75080FAB22CAF0969FFAD43F678BBA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156655CE3F82D3EF2D264CC48739F6BC /* Pods-YouNews.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YouNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YouNews/Pods-YouNews.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YouNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		91D44757BBBB6F400DD1C121B7BD7A25 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -501,38 +887,6 @@
 			};
 			name = Debug;
 		};
-		9C8837044AAA13C1F4D199D800B40C9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 156655CE3F82D3EF2D264CC48739F6BC /* Pods-YouNews.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YouNews/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YouNews/Pods-YouNews.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YouNews;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D264CF4A0C48341B0CD7C00F7F0526F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0025B9C4243A0EB62E867C9295D14CE0 /* Pods-YouNewsTests.debug.xcconfig */;
@@ -565,9 +919,9 @@
 			};
 			name = Debug;
 		};
-		D86AE6F2D3CE609723B04D4AC31D163D /* Release */ = {
+		E9EFAAAE75642D88808FF742AB0A7763 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D99E58144815AC6273E2E496493F3601 /* Pods-YouNews.release.xcconfig */;
+			baseConfigurationReference = 8A902FA4D87586CC3A0D43BAFCAF2453 /* YouTubePlayer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -578,25 +932,55 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YouNews/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YouNews/Pods-YouNews.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YouNews;
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				PRODUCT_NAME = YouTubePlayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		F1AF88FD9EF5B401BB0A16EDEC69738D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BF47991041F374C5E5D84BD7F14490 /* DJKFlipper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DJKFlipper/DJKFlipper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DJKFlipper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DJKFlipper/DJKFlipper.modulemap";
+				PRODUCT_NAME = DJKFlipper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FA8D760B1D04C2B6128B6084760E65A0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -652,20 +1036,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4A84C77FA9B4AB90685EEDD751F5A3F1 /* Build configuration list for PBXNativeTarget "DJKFlipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AF88FD9EF5B401BB0A16EDEC69738D /* Debug */,
+				1C5B1A5B208460D8466A9D197F9D4242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68901D5064E0DFE645C67F10051890AF /* Build configuration list for PBXNativeTarget "Pods-YouNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75080FAB22CAF0969FFAD43F678BBA97 /* Debug */,
+				5E6F45037CFFDF81116E0FD13E1D0D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1BC3BC14D024A496C1067375F846F4 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1408F5B19B2A54DD563D9151A9E5D714 /* Debug */,
+				E9EFAAAE75642D88808FF742AB0A7763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		90AEBD1532D4F46542DAE8C8336FA16C /* Build configuration list for PBXNativeTarget "Pods-YouNewsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91D44757BBBB6F400DD1C121B7BD7A25 /* Debug */,
 				2AD4CE2FD33B266AFBE404B0927E073A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF1D9806F8E0E1DF4A28E03FFD41E29B /* Build configuration list for PBXNativeTarget "Pods-YouNews" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9C8837044AAA13C1F4D199D800B40C9B /* Debug */,
-				D86AE6F2D3CE609723B04D4AC31D163D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
